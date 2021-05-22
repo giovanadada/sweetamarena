@@ -1,0 +1,528 @@
+.borda{
+	border: 1px solid red;
+}
+
+/*layout*/
+html, body{
+	height: 100%; 
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/*font*/
+@font-face {
+  font-family: "Albertiny";
+  src: url(../fonts/albertiny.ttf);
+}
+
+/*main nav*/
+.bg-nav{
+	background: url(../img/tarjinha.jpg) no-repeat;
+	background-size: cover;
+}
+
+.main-nav button i {
+	color: #750b19;
+}
+
+.navbar-nav li .dropdown-menu{ 
+	background-color: #750b19;
+}
+
+#main-nav .navbar-nav li .dropdown-menu a{
+	color: #fff;
+}
+
+#main-nav .navbar-nav li .dropdown-menu a:hover{
+	background: none;
+	color: #ea3957;
+}
+
+#main-nav ul li a{
+	color: #750b19;
+}
+
+#main-nav ul li a:hover{
+	color: #fff;
+}
+
+#main-nav .dropdown-menu a{
+	text-align: center;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.fa-bars {
+	border: 3px solid #fbd0b9;
+}
+
+#encomendas i{
+	padding-bottom:-60px;
+	color: green;
+}
+
+/*main carousel*/
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+}
+
+#main-carousel h3{
+	font-family: "Albertiny", Arial, sans-serif;;
+	color: #fff;
+	text-shadow: 0px 0px 5px black;
+}
+
+/*catalog*/
+.btn-danger{
+	background: #750b19;
+	border:none;
+}
+
+.btn-danger:hover{
+	background: #fbd0b9;
+	color: #750b19;
+}
+
+.btn-info{
+	background: #ea3957;
+	border:none;
+	pointer-events: none;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#boloCenoura  .carousel .carousel-indicators li{
+  background-color: rgba(48, 33, 2, 0.3); 
+}
+
+#boloCenoura .carousel .carousel-indicators li.active{ 
+	background-color: var(--danger); 
+}
+
+#boloCenoura .carousel .carousel-control-prev i,
+#boloCenoura .carousel .carousel-control-next i{ 
+	background: white;
+	color: red; 
+}
+
+#catalog h4{
+	background-color: #750b19;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#catalog a{
+	color: #750b19;
+}
+
+#catalog a:hover{
+	color: #fbd0b9;
+}
+
+#catalog h3{
+	color: #750b19;
+	font-size: 50px;
+	padding-bottom: 20px;
+	font-family: "Albertiny";
+}
+
+.modal img{
+	width: 50%;
+} 
+
+.modal h3{
+	color: #750b19;
+}
+
+#carouselBoloCenoura img{
+ 	margin: auto;
+}
+
+/*footer*/
+footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+footer a{
+	color: #000;
+	font-size: 0.8em;
+}
+
+footer a:hover{
+	color: #BEBEBE;
+	text-decoration: none;
+}
+
+footer ul li a i{
+	color: #750b19;
+	padding-left: 15px;
+}
+
+footer ul li a i:hover{
+	color: #fbd0b9;
+}
+
+#rodape .btn{
+	padding: 0;
+	margin:0;
+}
+
+#cc{
+
+}
+
+#cc a{
+	color: #750b19;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+	/*main nav*/
+	.main-nav img{
+		height: 80px;
+	}
+	
+	/*main carousel*/
+	#main-carousel .carousel-item {
+		height: 250px;
+	}
+
+	#main-carousel .carousel-item img{
+		position: relative;
+ 		top: 65px;
+	}
+
+	#main-carousel ol{
+		positin: relative;
+		bottom: 0;
+	  margin-bottom: 0;
+	}
+
+	#main-carousel .carousel-control-next, .carousel-control-prev{
+		width: 35%;
+	}
+
+	#main-carousel h3{
+		font-size: 30px;
+	}
+
+	/*catalog*/
+	#catalog h3{
+		font-size: 35px;
+	}
+
+	.card-columns {
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+  }
+
+  .modal img{
+  	width: 70%;
+	} 
+
+	/*rodape*/
+	#footer-logo {
+		width: 65%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 15px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*main nav*/
+	.navbar-brand img{
+		width: 60%;
+	}
+
+	#main-nav ul li {
+		position: relative;
+		top: 10px;
+	}
+
+	/*main carousel*/
+	#main-carousel h3{
+		font-size: 50px;
+		padding-bottom: 10px;
+	}
+
+	/*rodape*/
+	#footer-logo {
+		width: 45%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 30px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*main nav*/
+	.navbar-brand img{
+		width: 40%;
+		position: relative;
+		left: 30px;
+	}
+
+	/*main carousel*/
+	#main-carousel .carousel-item {
+		max-height: 500px;
+	}
+
+	#main-carousel h3{
+		font-size: 60px;
+		padding-bottom: 30px;
+	}
+
+	/*catalog*/
+	#bolos{
+		padding-left: 90px;
+	}
+
+/*rodape*/
+	#footer-logo {
+		width: 30%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 30px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*main nav*/
+	.navbar-brand img{
+		position: relative;
+		left: 80px;
+		width: 40%;
+	}
+
+	#main-nav ul {
+		margin-left: auto;
+	}
+
+	#main-nav ul li a{
+		padding-right: 50px;
+	}
+
+	#main-nav .dropdown-menu a{
+		padding: 0;
+	}
+
+	/*main carousel*/
+	#main-carousel .carousel-item {
+		max-height: 500px;
+	}
+
+	#main-carousel h3{
+		font-size: 60px;
+		padding-bottom: 50px;
+	}
+
+	/*catalog*/
+	#bolos{
+		padding-left: 300px;
+	}
+
+	#doces{
+		padding-left: 200px;
+	}
+
+	/*rodape*/
+	#footer-logo {
+		width: 25%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 30px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+/*main nav*/
+.navbar-brand img{
+		position: relative;
+		left: 80px;
+		width: 50%;
+	}
+
+	#main-nav ul{
+		margin-left:auto;
+	}
+
+	#main-nav ul li a{
+		margin-right:40px;
+	}
+
+	/*main carousel*/
+	#main-carousel .carousel-item {
+		max-height: 500px;
+	}
+
+	#main-carousel .carousel-item img{
+		width: 100%;
+		position: relative;
+		top: -50px;
+	}
+
+	#main-carousel h3{
+		font-size: 70px;
+		padding-bottom: 60px;
+	}
+
+	/*catalog*/
+	#bolos, #doces {
+		padding-left: 300px;
+	}
+
+	/*rodape*/
+	#footer-logo {
+		width: 20%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 30px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}

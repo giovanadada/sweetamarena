@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Sweet Amarena</title>
+  </head>
+
+  <body>
+ 
+    <!--header-->
+    <header>
+      <section>
+        <div class="main-nav container">
+          <nav class="navbar fixed-top container bg-nav navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/logo1.png" class="img-fluid">
+            </a>
+            <button class=" btn navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span>
+                <i class="fas fa-bars fa-lg"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+              <ul class="navbar-nav text-center">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Catálogo
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Bolos</a>
+                    <a class="dropdown-item" href="#">Doces</a>
+                    <a class="dropdown-item" href="#">Biscoitos</a>
+                  </div>
+                </li>
+                <li class="nav-item" id="encomendas">
+                  <a class="nav-link" href="https://api.whatsapp.com/message/XA3H3PAH5WAUF1">Encomendas
+                  <i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Redes
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://www.facebook.com/sweetamarena">
+                      <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a class="dropdown-item" href="https://www.instagram.com/sweetamarena/">
+                      <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header><!--/header-->
+    <!--main carousel-->
+    <section>
+        <div id="main-carousel" class=" carousel slide carousel-fade" data-ride="carousel" data-interval="6700">
+          <!--indicators-->
+           <ol class="carousel-indicators">
+            <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#main-carousel" data-slide-to="1"></li>
+            <li data-target="#main-carousel" data-slide-to="2"></li>
+          </ol><!--/indicators-->
+          <!--inner-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/capa01.jpg" class="img-fluid">
+              <div class="carousel-caption d-none d-block">
+                <h3> - Bolos e Doces - </h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/capa02.jpg" class="img-fluid">
+              <div class="carousel-caption d-none d-block">
+                <h3> - Bolos e Doces - </h3>
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <img src="img/capa03.jpg" class="img-fluid">
+              <div class="carousel-caption d-none d-block">
+                <h3> - Bolos e Doces - </h3>
+              </div>
+            </div>
+          </div><!--/inner-->
+        </div>
+    </section><!--/main carousel-->
+    <!--modal 1 bolo morango-->
+    <div class="modal fade" id="boloMorango">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/bolo_morango.jpg" alt="Bolo de morango">
+              </div>
+                Bolo de Morango
+              <div class="text-center">
+                <span class="btn btn-info">R$70,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Massa branca de baunilha com 2 camadas de recheio de morangos picados e brigadeiro branco cremoso. Cobertura de chantilly e morangos.
+            </p>
+            <p>
+              Peso: 1,5kg a 2kg.<br>Diâmetro: 15cm.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 1 bolo morango-->
+    <!--modal 2 martha rocha -->
+    <div class="modal fade" id="boloMartha">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/martha_rocha.jpg" alt="Bolo de martha rocha">
+              </div>
+                Bolo Martha Rocha
+              <div class="text-center">
+                <span class="btn btn-info">R$70,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Dois discos de massa branca de baunilha e 1 disco de massa de chocolate, recheados com baba de moça, suspiros e crocante de amendoim. Cobertura de chantilly, geleia de damasco, crocante de amendoim e nozes.
+            </p>
+            <p>
+              Peso: 1,5kg a 2kg.<br>Diâmetro: 15cm.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 2 martha rocha-->
+    <!--modal 3 bolo cenoura-->
+    <div class="modal fade" id="boloCenoura">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <!--carousel-->
+                <div id="carouselBoloCenoura" class="carousel slide text-center" data-ride="carousel" data-interval="5000">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block" src="img/bolo_cenoura.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block" src="img/bolo_cenoura_2.jpg" alt="Bolo de cenoura">
+                    </div>
+                  </div>
+                  <!--controls-->
+                  <div class="row">
+                    <div class="col-12">
+                      <a class="btn btn-danger mb-3 mr-1" href="#carouselBoloCenoura" role="button" data-slide="prev" style="color:white">
+                          <i class="fa fa-arrow-left"></i>
+                      </a>
+                      <a class="btn btn-danger mb-3 " href="#carouselBoloCenoura" role="button" data-slide="next" style="color:white">
+                          <i class="fa fa-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div><!--/controls-->
+                </div><!--carousel-->
+              </div>
+                Bolo de Cenoura com Chocolate
+              <div class="text-center">
+                <span class="btn btn-info">R$70,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Massa de bolo de cenoura com recheio e cobertura de ganache de chocolate nobre. Duas camadas de recheio. Decorado com granulados.
+            </p>
+            <p>
+              Peso: 1,5kg a 2kg.<br>Diâmetro: 15cm.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 4 bolo cenoura-->
+    <!--modal 5 bolo branco-->
+    <div class="modal fade" id="boloBranco">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/bolo_branco.jpg" alt="Bolo Branco">
+              </div>
+                Bolo Branco
+              <div class="text-center">
+                <span class="btn btn-info">R$50,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Massa branca de baunilha com recheio de 4 leites: leite de coco, leite ninho, leite condensado e creme de leite. Cobertura de chantilly. Pode ser decorado com flores naturais, cobradas à parte.
+            </p>
+            <p>
+              Peso: 1,5kg a 2kg.<br>Diâmetro: 15cm.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 5 bolo branco-->
+    <!--modal 6 cheescake-->
+    <div class="modal fade" id="cheescake">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/cheesecake_morango.jpg" alt="Cheesecake de morango">
+              </div>
+                Cheesecake de Morango
+              <div class="text-center">
+                <span class="btn btn-info">R$XX,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              X
+            </p>
+            <p>
+              XX
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 6 cheescake-->
+    <!--modal 6 suspiro-->
+    <div class="modal fade" id="suspiro">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/suspiro.jpg" alt="Suspiros">
+              </div>
+                Suspiros
+              <div class="text-center">
+                <span class="btn btn-info">R$xx,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 6 suspiro-->
+    <!--modal 7 pave-->
+    <div class="modal fade" id="pave">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/pave.jpg" alt="Pave de morango">
+              </div>
+                Pavê de Morango
+              <div class="text-center">
+                <span class="btn btn-info">R$XX,XX</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Pavê de morango feito com bolacha champagne, decorado com suspiros e pedaços de morango.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 7 pave-->
+    <!--modal 8 ovo-->
+    <div class="modal fade" id="ovo">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/ovo-brigadeiro.jpg" alt="Ovo de brigadeiro">
+              </div>
+                Ovo de Brigadeiro
+              <div class="text-center">
+                <span class="btn btn-info">R$50,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Ovo de colher recheado com brigadeiro cremoso e decorado com brigadeiros enrolados e cerejas. Casca feita com chocolate ao leite nobre.
+            </p>
+            <p>
+              Peso: 800g.<br> Forma de 350g.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 8 ovo-->
+    <!--modal 9 gengibre-->
+    <div class="modal fade" id="gengibre">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/biscoito_gengibre.jpg" alt="Biscoitos de gengibre">
+              </div>
+                Biscoitos de Gengibre
+              <div class="text-center">
+                <span class="btn btn-info">R$XX,XX</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Biscoitos de gengibre decorados com tema natalino.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 9 gengibre-->
+    <!--modal 10 halloween-->
+    <div class="modal fade" id="halloween">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/halloween.jpg" alt="Biscoitos de halloween">
+              </div>
+                Biscoitos de Halloween
+              <div class="text-center">
+                <span class="btn btn-info">R$XX,XX</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Biscoitos amanteigados decorados com o tema Halloween.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 10 halloween-->
+    <!--modal 11 sequilhos-->
+    <div class="modal fade" id="sequilhos">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/sequilhos.jpg" alt="Biscoito sequilhos">
+              </div>
+                Biscoito Sequilhos
+              <div class="text-center">
+                <span class="btn btn-info">R$XX,XX</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Biscoito sequilhos feitos de leite condensado.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 11 sequilhos-->
+    <!--modal 12 beliscao-->
+    <div class="modal fade" id="beliscao">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/beliscao.jpg" alt="Beliscao de goiabada">
+              </div>
+                Beliscão de Goiabada
+              <div class="text-center">
+                <span class="btn btn-info">R$XX,XX</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Biscoito feito de massa amanteigada com recheio de goiabada.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 12 beliscao-->
+    <!--modal 13 sequilhos-->
+    <div class="modal fade" id="beliscao">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/bolo_branco.jpg" alt="Bolo Branco">
+              </div>
+                Bolo Branco
+              <div class="text-center">
+                <span class="btn btn-info">R$50,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Massa branca de baunilha com recheio de 4 leites: leite de coco, leite ninho, leite condensado e creme de leite. Cobertura de chantilly. Pode ser decorado com flores naturais, cobradas à parte.
+            </p>
+            <p>
+              Peso: 1,5kg a 2kg.<br>Diâmetro: 15cm.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 13 sequilhos-->
+    <!--modal 14 pote-->
+    <div class="modal fade" id="pote">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/biscoito_mae_2.jpg" alt="Pote de biscoitos">
+              </div>
+                Pote de Biscoitos
+              <div class="text-center">
+                <span class="btn btn-info">R$25,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Pote de vidro com biscoitos amanteigados decorados.
+            </p>
+            <p>
+              Peso: 250g de biscoitos.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 14 pote-->
+    <!--modal 15 caixa-->
+    <div class="modal fade" id="caixa">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              <div>
+                <img class="card-img-top" src="img/biscoito_mae_3.jpg" alt="Caixa de biscoitos">
+              </div>
+                Caixa de Biscoitos
+              <div class="text-center">
+                <span class="btn btn-info">R$25,00</span>
+              </div>
+            </h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Caixa de biscoitos amanteigados, decorados com tema de dia das mães.
+            </p>
+            <p>
+              Tamanho da caixa: <br>
+              Largura 15cm.<br> Comprimento 19cm.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/modal 15 caixa-->
+    <!--catalog-->
+    <section class="pt-5 pb-3" id="catalog">
+      <div class="container">
+        <!--main row-->
+        <div class="row">
+            <!--controls-->
+            <div class="col-12 text-right">
+                <a class="btn btn-danger mb-3 mr-1" href="#img-card" role="button" data-slide="prev" style="color:white">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-danger mb-3 " href="#img-card" role="button" data-slide="next" style="color:white">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div><!--/controls-->
+            <div class="col-12">
+              <!--carousel-->
+                <div id="img-card" class="carousel slide" data-ride="carousel" data-interval="10000">
+                  <!--inner-->
+                    <div class="carousel-inner">
+                        <!--first carousel page-->
+                          <div class="carousel-item active" id="bolos">
+                            <h3>Bolos</h3>
+                              <div class="card-columns">
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/bolo_morango.jpg" alt="Bolo de morango">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Bolo de Morango</h6>
+                                      <a href="#" class="card-link"> 
+                                         <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#boloMorango">Detalhes
+                                         </button>
+                                       </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/martha_rocha.jpg" alt="Bolo martha rocha">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Bolo Martha Rocha</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#boloMartha">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class=" d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/bolo_cenoura.jpg" alt="Bolo de cenoura">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Bolo de Cenoura</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#boloCenoura">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/bolo_branco.jpg" alt="Bolo branco">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Bolo Branco</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#boloBranco">Detalhes
+                                         </button>
+                                       </a>
+                                    </div>
+                                  </div>
+                              </div>
+                        </div><!--/first carousel page-->
+                        <!--second carousel page-->
+                        <div class="carousel-item" id="doces">
+                          <h3>Doces</h3>
+                              <div class="card-columns">
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/cheesecake_morango.jpg" alt="Cheesecake de morango">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Cheesecake de Morango</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#cheescake">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/suspiro.jpg" alt="Suspiro">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Suspiro</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#suspiro">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/pave.jpg" alt="Pave de morango">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Pavê de Morango</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#pave">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/ovo-brigadeiro.jpg" alt="Ovo de brigadeiro">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Ovo de Brigadeiro</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#ovo">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                              </div>
+                        </div><!--/second carousel page-->
+                        <!--third carousel page-->
+                        <div class="carousel-item" id="biscoitos">
+                          <h3>Biscoitos</h3>
+                              <div class="card-columns">
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/biscoito_gengibre.jpg" alt="Biscoito de gengibre">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Biscoito de Gengibre</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#gengibre">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/halloween.jpg" alt="Biscoitos de halloween">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Biscoitos de Halloween</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#halloween">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/sequilhos.jpg" alt="Sequilhos">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Sequilhos</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#sequilhos">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                   <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/beliscao.jpg" alt="Beliscão de goiabada">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Beliscão de Goiabada</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#beliscao">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/biscoito_mae_2.jpg" alt="Pote de biscoitos">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Pote de biscoitos</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#pote">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="d-inline-block card border-light box-shadow">
+                                    <img class="card-img-top" src="img/biscoito_mae_3.jpg" alt="Caixa de biscoitos">
+                                    <div class="card-body text-center">
+                                      <h6 class="card-text">Caixa de Biscoitos</h6>
+                                      <a href="#" class="card-link">
+                                        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#caixa">Detalhes
+                                         </button>
+                                      </a>
+                                    </div>
+                                  </div>
+                              </div>
+                        </div><!--/third carousel page-->
+                    </div><!--/inner-->
+                </div><!--/carousel-->
+            </div>
+            <!--controls-->
+            <div class="col-12 text-right">
+                <a class="btn btn-danger mb-3 mr-1" href="#img-card" role="button" data-slide="prev" style="color:white">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-danger mb-3 " href="#img-card" role="button" data-slide="next" style="color:white">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div><!--/controls-->
+        </div><!--/main row-->
+      </div>
+    </section><!--/catalog-->
+    <hr>
+
+   
+
+
+    <!--footer-->
+    <footer id="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-3">
+                <a href="index.html">
+                  <img src="img/logo2.png" class="img-fluid" id="footer-logo">
+                </a>
+              </div>
+              <div class="col-3 ">
+                <ul>
+                  <li>
+                    <a href="">Bolos</a>
+                  </li>
+                  <li>
+                    <a href="">Doces</a>
+                  </li>
+                  <li>
+                    <a href="">Biscoitos</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <ul>
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="https://api.whatsapp.com/message/XA3H3PAH5WAUF1">Encomendas</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <ul style="height: 80px;">
+                  <li class="pb-3">
+                    <a href="https://www.facebook.com/sweetamarena">
+                      <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/sweetamarena/">
+                      <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center">
+              <a class="btn disabled btn-sm pb-2" id="email">(41) 9157-0309 | sweetamarena@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center" id="cc">
+            <a rel="license" href="
+            http://creativecommons.org/licenses/by-nc-sa/4.0/">
+              <img  class="pb-1" alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+            </a>
+            <br>
+            <span>Este obra está licenciado com uma Licença</span>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+              Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional
+            </a>.
+          </div>
+        </div>
+        <div class="row pb-2">
+          <div class="col-12">
+            <div class="text-center">
+              <a href="" class="btn disabled btn-sm" id="cr">Copyright &copy; 2021 Giovana Freitas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><!--/footer-->
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -31,6 +31,7 @@ body{
 	background-color: #750b19;
 }
 
+
 #main-nav .navbar-nav li .dropdown-menu a{
 	color: #fff;
 }
@@ -42,6 +43,7 @@ body{
 
 #main-nav ul li a{
 	color: #750b19;
+	outline: none;
 }
 
 #main-nav ul li a:hover{
@@ -85,11 +87,6 @@ body{
 	border:none;
 }
 
-.btn-danger:hover{
-	background: #fbd0b9;
-	color: #750b19;
-}
-
 .btn-info{
 	background: #ea3957;
 	border:none;
@@ -99,6 +96,7 @@ body{
 .btn:focus, .btn:active {
   outline: none !important;
   box-shadow: none !important;
+  background: #750b19;
 }
 
 #boloCenoura  .carousel .carousel-indicators li{
@@ -176,10 +174,6 @@ footer ul li a i:hover{
 #rodape .btn{
 	padding: 0;
 	margin:0;
-}
-
-#cc{
-
 }
 
 #cc a{
@@ -286,6 +280,11 @@ footer ul li a i:hover{
 		padding-bottom: 10px;
 	}
 
+	.btn-danger:hover{
+		background: #fbd0b9;
+		color: #750b19;
+	}
+
 	/*rodape*/
 	#footer-logo {
 		width: 45%;
@@ -304,6 +303,10 @@ footer ul li a i:hover{
 
 	#cc a{
 		font-size: 11px;
+	}
+
+	#cc a:hover{
+		color: #BEBEBE;
 	}
 
 	#cc img{
@@ -340,12 +343,17 @@ footer ul li a i:hover{
 		padding-bottom: 30px;
 	}
 
+	.btn-danger:hover{
+		background: #fbd0b9;
+		color: #750b19;
+	}
+
 	/*catalog*/
 	#bolos{
 		padding-left: 90px;
 	}
 
-/*rodape*/
+	/*rodape*/
 	#footer-logo {
 		width: 30%;
 	  margin: auto;
@@ -363,6 +371,10 @@ footer ul li a i:hover{
 
 	#cc a{
 		font-size: 11px;
+	}
+
+	#cc a:hover{
+		color: #BEBEBE;
 	}
 
 	#cc img{
@@ -411,6 +423,11 @@ footer ul li a i:hover{
 		padding-bottom: 50px;
 	}
 
+	.btn-danger:hover{
+		background: #fbd0b9;
+		color: #750b19;
+	}
+
 	/*catalog*/
 	#bolos{
 		padding-left: 300px;
@@ -438,6 +455,10 @@ footer ul li a i:hover{
 
 	#cc a{
 		font-size: 11px;
+	}
+
+	#cc a:hover{
+		color: #BEBEBE;
 	}
 
 	#cc img{
@@ -488,6 +509,11 @@ footer ul li a i:hover{
 		padding-bottom: 60px;
 	}
 
+	.btn-danger:hover{
+		background: #fbd0b9;
+		color: #750b19;
+	}
+
 	/*catalog*/
 	#bolos, #doces {
 		padding-left: 300px;
@@ -513,6 +539,10 @@ footer ul li a i:hover{
 		font-size: 11px;
 	}
 
+	#cc a:hover{
+		color: #BEBEBE;
+	}
+
 	#cc img{
 		width: 80px;
 	}
@@ -526,3 +556,4 @@ footer ul li a i:hover{
 	}
 
 }
+

@@ -1,7 +1,7 @@
 # Sweet Amarena
 
 <p align="center">
-<img alt="site preview" width="250px"  src="https://ik.imagekit.io/zkrouomv7/site_preview_ZR0ALRSCq.mp4">
+<img alt="site preview" width="250px"  src="img/site_preview_gif.gif">
 </p>
 
 #### About

@@ -12,4 +12,4 @@ MIT
 > Note: the content inside the site such as photographs and visual identity are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 
-Visual indentity: [Rafael Gomes](https://www.instagram.com/rafalegome).
+Visual identity: [Rafael Gomes](https://www.instagram.com/rafalegome).

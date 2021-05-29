@@ -5,7 +5,7 @@
 </p>
 
 #### About
-Sweet Amarena is an independent brand of cakes and sweets located in Curitiba-PR, Brazil. The site works as a catalog of products and it's another way to communicate with clients, beyond the official social media: [Instagram](https://www.instagram.com/sweetamarena) and [Facebook](https://www.facebook.com/sweetamarena).
+[Sweet Amarena](https://gidff.github.io/sweetamarena) is an independent brand of cakes and sweets located in Curitiba-PR, Brazil. The site works as a catalog of products and it's another way to communicate with clients, beyond the official social media: [Instagram](https://www.instagram.com/sweetamarena) and [Facebook](https://www.facebook.com/sweetamarena).
 
 ####  License
 MIT

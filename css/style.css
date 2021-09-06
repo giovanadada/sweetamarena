@@ -23,14 +23,13 @@ body{
 	background-size: cover;
 }
 
-.main-nav button i {
+.main-nav button i{
 	color: #750b19;
 }
 
 .navbar-nav li .dropdown-menu{ 
 	background-color: #750b19;
 }
-
 
 #main-nav .navbar-nav li .dropdown-menu a{
 	color: #fff;
@@ -58,17 +57,13 @@ body{
   border: none;
 }
 
-.fa-bars {
-	border: 3px solid #fbd0b9;
-}
-
 #encomendas i{
 	padding-bottom:-60px;
 	color: green;
 }
 
 /*main carousel*/
-.carousel-indicators li {
+.carousel-indicators li{
   border-radius: 50%;
   width: 15px;
   height: 15px;

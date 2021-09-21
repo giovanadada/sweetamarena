@@ -1,0 +1,243 @@
+.borda{
+	border: 1px solid red;
+}
+
+/*layout*/
+html, body{
+	height: 100%; 
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/*font*/
+@font-face {
+  font-family: "Albertiny";
+  src: url(../fonts/albertiny.ttf);
+}
+
+/*main*/
+#main{
+		background: url(../img/background.png);
+}
+
+/*cover*/
+#cover img{
+	width: 200px;
+	margin: 35px 0;
+}
+
+/*buttom*/
+
+
+/*rodape*/
+#rodape{
+	background: #FFF;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	/*cover*/
+	#cover img{
+		margin-bottom: 5px;
+	}
+
+	/*footer*/
+	#footer-logo {
+		width: 65%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 15px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*footer*/
+	#footer-logo {
+		width: 45%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 30px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc a:hover{
+		color: #BEBEBE;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*footer*/
+	#footer-logo {
+		width: 30%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 30px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc a:hover{
+		color: #BEBEBE;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*footer*/
+	#footer-logo {
+		width: 25%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 30px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc a:hover{
+		color: #BEBEBE;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	/*footer*/
+	#footer-logo {
+		width: 20%;
+	  margin: auto;
+  	display: block;
+	}
+
+	footer ul li a i{
+		padding-left: 30px;
+	}
+
+	#cc{
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	#cc a{
+		font-size: 11px;
+	}
+
+	#cc a:hover{
+		color: #BEBEBE;
+	}
+
+	#cc img{
+		width: 80px;
+	}
+
+	#email{
+		font-size: 14px;
+	}
+
+	#cr{
+		font-size: 10px;
+	}
+
+}

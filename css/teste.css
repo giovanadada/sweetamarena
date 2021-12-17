@@ -39,9 +39,14 @@ body{
     background-color: #8064A2 !important;
     border: none;
 }
-.btn-primary:focus{
-	border: none;
+
+
+
+.btn-primary:focus,
+.btn-primary.focus {
+    border: none !important;
 }
+
 /*rodape*/
 #rodape{
 	background: #FFF;
